@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+
+    border-radius: 90px;
+    outline: 4px solid black;
+    padding: 45px;
+}
+.second{
+    width: 600px;
+    height: 350px;
+    background-color: yellowgreen;
+    
+    border-radius: 25% 10%;
+    outline: 4px solid black;
+    padding: 45px;
+}
+.third{
+    width: 600px;
+    height: 350px;
+    background-color: green;
+  
+    border-radius: 35px 10em 10%;
+    outline: 4px solid black;
+    padding: 45px;
+}
+.four{
+    width: 600px;
+    height: 350px;
+    background-color: red;
+
+    border-radius: 50px 50% 50cm 50em;  
+    outline: 4px solid black; 
+    padding: 45px;
+}
+.main{
+  padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main2{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}

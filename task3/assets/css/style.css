@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 2px solid green;
+    margin: 200px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 0%;
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid red;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 0%;
+}
+.first_blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 0%;
+}
+
+.four{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 100%;   
+}
+.five{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2px solid black;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;   
+}
+.flover{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    margin: 100px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.main_second{
+padding: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: yellowgreen;
+    border-radius: 100%;
+}
+.main_third{
+    padding: 10px;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(50, 63, 205);
+    border-radius: 100%;
+
+}
+.main_four{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.ballon1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    
+
+}
